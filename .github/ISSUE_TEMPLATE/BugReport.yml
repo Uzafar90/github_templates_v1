@@ -5,7 +5,7 @@ labels: ['bug']
 body:
   - type: dropdown
     attributes:
-      label: '# Environment'
+      label: 'Environment'
       description: What is the impacted environment?
       multiple: true
       options:
