@@ -5,8 +5,8 @@ labels: ['bug']
 body:
   - type: dropdown
     attributes:
-      label: 'Environment'
-      description: What is the impacted environment?
+      label: 'Operating system'
+      description: List all OS(s) impacted.
       multiple: true
       options:
         - Windows
@@ -14,41 +14,51 @@ body:
         - Mac
     validations:
       required: false
-  - type: textarea
-    attributes:
-      label: Operating System
-      description: What operating system are you using?
-      placeholder: macOS Big Sur
-    validations:
-      required: true
   - type: dropdown
     attributes:
-      label: Version
-      description: What version of our software are you running?
-      multiple: false
+      label: 'Browser'
+      description: List all browser(s) impacted.
+      multiple: true
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+        - Firefox
+        - Chrome
+        - Safari
+        - Brave
+        - Microsoft Edge
+        - Opera
+    validations:
+      required: false
+  - type: textarea
+    id: description
+    attributes:
+      label: 'Steps to Reproduce'
+      description: Please list all the steps to reproduce
+      placeholder: step 1 ...
+        step 2 ...
+        step 3 ...
     validations:
       required: true
-  - type: checkboxes
+  - type: textarea
+    id: description
     attributes:
-      label: Code of Conduct
-      description:
-        The Code of Conduct helps create a safe space for everyone. We require
-        that everyone agrees to it.
-      options:
-        - label: I agree to follow this project's [Code of Conduct](link/to/coc)
-          required: true
-  - type: markdown
+      label: 'Expected Behavior'
+      description: Describe what you expected to happen
+      placeholder: start typing ...
+    validations:
+      required: true
+  - type: textarea
+    id: description
     attributes:
-      value: 'Thanks for completing our form!'
-  - type: checkboxes
+      label: 'Actual Behavior'
+      description: Describe what actually happened
+      placeholder: start typing ...
+    validations:
+      required: true
+  - type: textarea
+    id: description
     attributes:
-      label: Checklists
-      description: Please select that all applies
-      options:
-        - label: My code follows the style guidelines of this project
-        - label: I have performed a self-review of my own code
-        - label: I have created reusable components wherever possible.
-          required: false
+      label: 'Additional Details'
+      description: Provide any additional details or context related to the issue
+      placeholder: start typing ...
+    validations:
+      required: true
