@@ -4,7 +4,6 @@ title: '[BUG] <title>'
 labels: ['bug']
 body:
   - type: dropdown
-    id: SampleId
     attributes:
       label: 'Operating system'
       description: List all OS(s) impacted.
@@ -30,7 +29,6 @@ body:
     validations:
       required: false
   - type: textarea
-    id: description
     attributes:
       label: 'Steps to Reproduce'
       description: Please list all the steps to reproduce
@@ -38,7 +36,6 @@ body:
     validations:
       required: true
   - type: textarea
-    id: description
     attributes:
       label: 'Expected Behavior'
       description: Describe what you expected to happen
@@ -46,7 +43,6 @@ body:
     validations:
       required: true
   - type: textarea
-    id: description
     attributes:
       label: 'Actual Behavior'
       description: Describe what actually happened
@@ -54,7 +50,6 @@ body:
     validations:
       required: true
   - type: textarea
-    id: description
     attributes:
       label: 'Additional Details'
       description: Provide any additional details or context related to the issue
