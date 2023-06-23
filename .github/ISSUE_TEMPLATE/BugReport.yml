@@ -14,11 +14,6 @@ body:
         - Mac
     validations:
       required: false
-  - type:
-    attributes:
-      label:
-      description:
-      placeholder:
   - type: textarea
     attributes:
       label: Operating System
