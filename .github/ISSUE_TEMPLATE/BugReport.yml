@@ -14,6 +14,11 @@ body:
         - Mac
     validations:
       required: false
+  - type:
+    attributes:
+      label:
+      description:
+      placeholder:
   - type: textarea
     attributes:
       label: Operating System
@@ -43,3 +48,12 @@ body:
   - type: markdown
     attributes:
       value: 'Thanks for completing our form!'
+  - type: checkboxes
+    attributes:
+      label: Checklists
+      description: Please select that all applies
+      options:
+        - label: My code follows the style guidelines of this project
+        - label: I have performed a self-review of my own code
+        - label: I have created reusable components wherever possible.
+          required: false
