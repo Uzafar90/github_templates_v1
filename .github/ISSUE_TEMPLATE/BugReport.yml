@@ -56,3 +56,33 @@ body:
       placeholder: start typing
     validations:
       required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: 'Screenshots'
+      description: If applicable, add screenshots to help explain your problem.
+      value: |
+        ![DESCRIPTION](LINK.png)
+      render: bash
+    validations:
+      required: false
+  - type: checkboxes
+    id: lists
+    attributes:
+      label: Code of Conduct
+      description: Please check the following boxes that applies
+      options:
+        - label: I have read the documentation and user guides.
+        - label: I have searched for existing issues and this is not a duplicate.
+        - label: I have reproduced this issue using the latest version of the software.
+        - label: I have included all relevant information and steps to reproduce the issue.
+        - label: I have attached any necessary screenshots or files.
+        - label: I understand that this is an open-source project and that it may take some time for the issue to be addressed.
+          required: false
+  - type: textarea
+    attributes:
+      label: 'Todo List'
+      description: Please list all the tasks that need to be done!
+      placeholder: item 1 ... item 2
+    validations:
+      required: true
