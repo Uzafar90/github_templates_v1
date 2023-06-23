@@ -9,7 +9,7 @@ body:
       description: What is the impacted environment?
       multiple: true
       options:
-        - Windows erfjdshfdjkshfdskfdsfkjfksjfdkfjdkfjdfkjfkj
+        - Windows
         - Linux
         - Mac
     validations:
