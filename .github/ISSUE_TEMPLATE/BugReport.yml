@@ -4,6 +4,7 @@ title: '[BUG] <title>'
 labels: ['bug']
 body:
   - type: dropdown
+    id: SampleId
     attributes:
       label: 'Operating system'
       description: List all OS(s) impacted.
