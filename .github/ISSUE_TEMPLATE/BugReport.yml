@@ -33,9 +33,9 @@ body:
     attributes:
       label: 'Steps to Reproduce'
       description: Please list all the steps to reproduce
-      placeholder: step 1 ...
-        step 2 ...
-        step 3 ...
+      placeholder: step 1
+        step 2
+        step 3
     validations:
       required: true
   - type: textarea
@@ -43,7 +43,7 @@ body:
     attributes:
       label: 'Expected Behavior'
       description: Describe what you expected to happen
-      placeholder: start typing ...
+      placeholder: start typing
     validations:
       required: true
   - type: textarea
@@ -51,7 +51,7 @@ body:
     attributes:
       label: 'Actual Behavior'
       description: Describe what actually happened
-      placeholder: start typing ...
+      placeholder: start typing
     validations:
       required: true
   - type: textarea
@@ -59,6 +59,6 @@ body:
     attributes:
       label: 'Additional Details'
       description: Provide any additional details or context related to the issue
-      placeholder: start typing ...
+      placeholder: start typing
     validations:
       required: true
