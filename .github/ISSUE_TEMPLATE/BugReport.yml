@@ -69,7 +69,7 @@ body:
   - type: checkboxes
     id: lists
     attributes:
-      label: Code of Conduct
+      label: Checklist
       description: Please check the following boxes that applies
       options:
         - label: I have read the documentation and user guides.
@@ -83,6 +83,6 @@ body:
     attributes:
       label: 'Todo List'
       description: Please list all the tasks that need to be done!
-      placeholder: item 1 ... item 2
+      placeholder: item 1 ...
     validations:
-      required: true
+      required: false
