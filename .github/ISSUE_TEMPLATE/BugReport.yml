@@ -33,6 +33,8 @@ body:
       label: 'Steps to Reproduce'
       description: Please list all the steps to reproduce
       placeholder: step 1
+        step 2
+        step 3
     validations:
       required: true
   - type: textarea
