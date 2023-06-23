@@ -34,32 +34,32 @@ body:
       description: Please list all the steps to reproduce
       placeholder: step 1
     validations:
-      required: true
+      required: false
   - type: textarea
     attributes:
       label: 'Expected Behavior'
       description: Describe what you expected to happen
       placeholder: start typing
     validations:
-      required: true
+      required: false
   - type: textarea
     attributes:
       label: 'Actual Behavior'
       description: Describe what actually happened
       placeholder: start typing
     validations:
-      required: true
+      required: false
   - type: textarea
     attributes:
-      label: 'Additional Details'
+      label: 'Additional Details (optional)'
       description: Provide any additional details or context related to the issue
       placeholder: start typing
     validations:
-      required: true
+      required: false
   - type: textarea
     id: screenshot
     attributes:
-      label: 'Screenshots'
+      label: 'Screenshots (optional)'
       description: If applicable, add screenshots to help explain your problem.
       value: |
         ![DESCRIPTION](LINK.png)
@@ -81,8 +81,56 @@ body:
           required: false
   - type: textarea
     attributes:
-      label: 'Todo List'
+      label: 'Todo List (optional)'
       description: Please list all the tasks that need to be done!
       placeholder: item 1 ...
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: 'Proposed Solution (optional)'
+      description: If you have any ideas or suggestions for a potential solution, please describe them here
+      placeholder: start typing
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: 'Impact'
+      description: Describe the impact of the issue on the software or users
+      placeholder: start typing
+    validations:
+      required: false
+  - type: dropdown
+    attributes:
+      label: 'Reproducibility (optional)'
+      description: List all browser(s) impacted.
+      options:
+        - Always
+        - Sometimes
+        - Rarely
+    validations:
+      required: false
+  - type: dropdown
+    attributes:
+      label: 'Severity (optional)'
+      description: List all browser(s) impacted.
+      options:
+        - low
+        - Medium
+        - High
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: 'Related Issues (optional)'
+      description: If there are any related issues or pull requests, please list them here
+      placeholder: start listing issues
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: 'Any other information (optional)'
+      description: Include any other relevant information that may assist in resolving the issue
+      placeholder: start typing
     validations:
       required: false
