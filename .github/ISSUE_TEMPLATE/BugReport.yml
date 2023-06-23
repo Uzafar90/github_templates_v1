@@ -95,7 +95,7 @@ body:
       required: false
   - type: textarea
     attributes:
-      label: 'Impact'
+      label: 'Impact (optional)'
       description: Describe the impact of the issue on the software or users
       placeholder: start typing
     validations:
