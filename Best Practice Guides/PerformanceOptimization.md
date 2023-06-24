@@ -1,4 +1,4 @@
-# Performance Optimization for GitHub Issue Template
+# Performance Optimization Guide
 
 ## 1. Use Clear and Concise Titles:
 

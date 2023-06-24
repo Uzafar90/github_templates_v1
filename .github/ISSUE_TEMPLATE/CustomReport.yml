@@ -1,0 +1,41 @@
+name: 'Custom Template'
+description: Create a new ticket for your random issue.
+title: '[RANDOM] - <title>'
+labels: ['issue']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Prior to submitting a new ticket, we kindly ask you to carefully review the Important Documents and Best Practice Guide.
+        ______________________________________
+        **Important documentation**
+        - [Code of Conduct](https://github.com/Uzafar90/github_templates_v1/blob/main/CodeOfConduct.md)
+        - [Contribution Guide](https://github.com/Uzafar90/github_templates_v1/blob/main/ContributionGuide.md)
+        - [Security Guide](https://github.com/Uzafar90/github_templates_v1/blob/main/SecurityGuide.md)
+        ______________________________________
+        **Best Practice Guide for Github Issue Request**
+        - [Code of Conduct](https://github.com/Uzafar90/github_templates_v1/blob/main/CodeOfConduct.md)
+        - [Contribution Guide](https://github.com/Uzafar90/github_templates_v1/blob/main/ContributionGuide.md)
+        - [Security Guide](https://github.com/Uzafar90/github_templates_v1/blob/main/SecurityGuide.md)
+        ______________________________________
+  - type: textarea
+    attributes:
+      label: 'Description'
+      description: A clear and concise description of your issue.
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: 'Steps to Reproduce'
+      description: |
+        1. Provide a detailed list of steps to reproduce the bug.
+        2. Include any specific inputs, configurations, or data needed to reproduce the issue.
+        3. Add screenshots or code snippets if applicable.
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: 'Additional Information'
+      description: Add any other relevant information about the issue here, such as error messages, logs, or related issues.
+    validations:
+      required: false
