@@ -8,15 +8,17 @@ body:
       value: |
         ## Prior to submitting a new ticket, we kindly ask you to carefully review the Important Documents and Best Practice Guide.
         ______________________________________
-        **Important documentation**
-        - [Code of Conduct](https://github.com/Uzafar90/github_templates_v1/blob/main/CodeOfConduct.md)
-        - [Contribution Guide](https://github.com/Uzafar90/github_templates_v1/blob/main/ContributionGuide.md)
-        - [Security Guide](https://github.com/Uzafar90/github_templates_v1/blob/main/SecurityGuide.md)
+         **Important documentation**
+        - [Code of Conduct](https://github.com/Uzafar90/github_templates_v1/blob/main/Official%20Docs/CodeOfConduct.md)
+        - [Contribution Guide](https://github.com/Uzafar90/github_templates_v1/blob/main/Official%20Docs/ContributionGuide.md)
+        - [Security Guide](https://github.com/Uzafar90/github_templates_v1/blob/main/Official%20Docs/SecurityGuide.md)
         ______________________________________
         **Best Practice Guide for Github Issue Request**
-        - [Code of Conduct](https://github.com/Uzafar90/github_templates_v1/blob/main/CodeOfConduct.md)
-        - [Contribution Guide](https://github.com/Uzafar90/github_templates_v1/blob/main/ContributionGuide.md)
-        - [Security Guide](https://github.com/Uzafar90/github_templates_v1/blob/main/SecurityGuide.md)
+        - [Code Refactor](https://github.com/Uzafar90/github_templates_v1/blob/main/Best%20Practice%20Guides/CodeRefactor.md)
+        - [Documenting Error](https://github.com/Uzafar90/github_templates_v1/blob/main/Best%20Practice%20Guides/DocumentingError.md)
+        - [Error Handling](https://github.com/Uzafar90/github_templates_v1/blob/main/Best%20Practice%20Guides/ErrorHandle.md)
+        - [Performance Optimization](https://github.com/Uzafar90/github_templates_v1/blob/main/Best%20Practice%20Guides/PerformanceOptimization.md)
+        - [Version Control Conflicts](https://github.com/Uzafar90/github_templates_v1/blob/main/Best%20Practice%20Guides/VersionControlConflicts.md)
         ______________________________________
   - type: textarea
     attributes:

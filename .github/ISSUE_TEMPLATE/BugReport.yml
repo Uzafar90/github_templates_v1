@@ -9,9 +9,9 @@ body:
         ## Please review the information documentation before you create a new ticket
         ______________________________________
         **Important documentation**
-        - [Code of Conduct](https://github.com/Uzafar90/github_templates_v1/blob/main/CodeOfConduct.md)
-        - [Contribution Guide](https://github.com/Uzafar90/github_templates_v1/blob/main/ContributionGuide.md)
-        - [Security Guide](https://github.com/Uzafar90/github_templates_v1/blob/main/SecurityGuide.md)
+        - [Code of Conduct](https://github.com/Uzafar90/github_templates_v1/blob/main/Official%20Docs/CodeOfConduct.md)
+        - [Contribution Guide](https://github.com/Uzafar90/github_templates_v1/blob/main/Official%20Docs/ContributionGuide.md)
+        - [Security Guide](https://github.com/Uzafar90/github_templates_v1/blob/main/Official%20Docs/SecurityGuide.md)
         ______________________________________
   - type: dropdown
     attributes:
