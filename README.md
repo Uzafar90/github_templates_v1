@@ -36,6 +36,8 @@ To get involved, start by fork the project and creating your own branch. Follow 
 
 It's important to review other people's code and join discussions to work together and maintain good quality. We appreciate your contributions and are excited to see what you bring to the project!
 
+_Read this for more detail guidance._ [Contribution Guide](https://github.com/Uzafar90/github_templates_v1/blob/main/Official%20Docs/ContributionGuide.md)
+
 ### License
 
 [MIT License](LICENSE)
