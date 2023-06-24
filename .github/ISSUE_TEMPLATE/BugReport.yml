@@ -3,6 +3,15 @@ description: Create a new ticket for a bug
 title: '[BUG] <title>'
 labels: ['bug']
 body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Thank for taking the time to fill out this an idea for improving the project!
+
+        We love to hear any and all idea that you may have. It would be great to get as much detail from you as you wish to provide.
+
+        **Helpful Links**
+        - [Code of Conduct](https://github.com/Uzafar90/github_templates_v1/blob/main/CodeOfConduct.md)
   - type: dropdown
     attributes:
       label: 'Operating system'
