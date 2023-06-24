@@ -48,18 +48,6 @@ body:
     validations:
       required: false
   - type: textarea
-    id: screenshot
-    attributes:
-      label: 'Design Mockups (optional)'
-      description: |
-        - If applicable, include design mockups or visual representations of how the feature might look or function. 
-          - This can help provide a clearer understanding of the proposed feature.
-      value: |
-        ![DESCRIPTION](LINK.png)
-      render: bash
-    validations:
-      required: false
-  - type: textarea
     attributes:
       label: 'Dependencies'
       description: |
@@ -89,5 +77,23 @@ body:
       description: |
         - Describe the expected outcome or impact of implementing this feature. 
           - This can include user experience improvements, increased efficiency, or any other positive outcomes.
+    validations:
+      required: false
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: 'Design Mockups (optional)'
+      description: |
+        - If applicable, include design mockups or visual representations of how the feature might look or function. 
+          - This can help provide a clearer understanding of the proposed feature.
+      value: |
+        ![DESCRIPTION](LINK.png)
+      render: bash
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: 'Additional Comments (Optional)'
+      description: Include any additional comments, suggestions, or considerations related to the feature.
     validations:
       required: false
