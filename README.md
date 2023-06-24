@@ -1,5 +1,7 @@
 # Guide to Github Issue Templates
 
+#### A helpful resource on how to utilize Github Issue Templates.
+
 ### What is the Issue Template?
 
 Issue templates provide a standardized format for contributors to communicate and document various types of issues, ensuring clarity and consistency in issue reporting.
