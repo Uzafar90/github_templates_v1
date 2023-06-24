@@ -40,6 +40,6 @@ The purpose of this guide is to provide a well-structured security guide for Git
 
 - Keep GitHub issue templates up to date with the latest security patches and enhancements.
 - Monitor security-related announcements from GitHub and promptly apply recommended updates.
-- Perform periodic audits of issue templates to ensure their continued securitydfgdds
+- Perform periodic audits of issue templates to ensure their continued security.
 
 **_By following this well-structured security guide for GitHub issue templates, you can enhance the overall security of your GitHub projects. Remember, maintaining security requires ongoing efforts, so it's crucial to remain vigilant, educate contributors, and regularly review and update your security practices._**
