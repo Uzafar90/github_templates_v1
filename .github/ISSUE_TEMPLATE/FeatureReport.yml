@@ -60,7 +60,7 @@ body:
       label: 'Dependencies'
       description: |
         - List any dependencies or prerequisites required for implementing the feature. 
-         - This can include libraries, frameworks, or other components.
+          - This can include libraries, frameworks, or other components.
     validations:
       required: false
   - type: textarea
@@ -76,7 +76,7 @@ body:
       label: 'Testing Plan'
       description: |
         - Describe how the feature should be tested to ensure its functionality and reliability. 
-         - Specify any specific test cases or scenarios to cover.
+          - Specify any specific test cases or scenarios to cover.
     validations:
       required: false
   - type: textarea
