@@ -9,6 +9,7 @@ body:
         ## Please review the information documentation before you create a new ticket
         **Important documentation**
         - [Code of Conduct](https://github.com/Uzafar90/github_templates_v1/blob/main/CodeOfConduct.md)
+        ___________________________________________________________________________________________________
   - type: dropdown
     attributes:
       label: 'Operating system'
