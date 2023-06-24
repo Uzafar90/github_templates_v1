@@ -108,3 +108,11 @@ body:
       description: Include any additional comments, suggestions, or considerations related to the feature.
     validations:
       required: false
+  - type: checkboxes
+    id: term
+    attributes:
+      label: Accept Terms
+      description: This projects have some important documentations that all participants are expected to review, understand, and follow thoroughly.
+      options:
+        - label: I have read and agree to the term list under [Official Documentations](https://github.com/Uzafar90/github_templates_v1/tree/main/Official%20Docs)
+          required: true
