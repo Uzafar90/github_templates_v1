@@ -43,30 +43,16 @@ body:
       label: 'Steps to Reproduce'
       description: Please list all the steps to reproduce
       placeholder: |
-        - step 1
-        - step 2
-        - step 3
+        1. Login to the system
+        2. File the bug report
+        3. Submit
     validations:
       required: false
   - type: textarea
     attributes:
-      label: 'Expected Behavior'
-      description: Describe what you expected to happen
+      label: 'What happened?'
+      description: Explain, what you did expect to happen?
       placeholder: provide your expectations ...
-    validations:
-      required: false
-  - type: textarea
-    attributes:
-      label: 'Actual Behavior'
-      description: Describe what actually happened
-      placeholder: provide your details ...
-    validations:
-      required: false
-  - type: textarea
-    attributes:
-      label: 'Additional Details (optional)'
-      description: Provide any additional details or context related to the issue
-      placeholder: provide additional details ...
     validations:
       required: false
   - type: textarea
@@ -97,7 +83,7 @@ body:
       label: 'Todo List (optional)'
       description: Please list all the tasks that need to be done!
       placeholder: |
-        - item 1 ...
+        - Item 1 ...
         - item 2 ...
         - item 3 ...
     validations:
@@ -118,8 +104,8 @@ body:
       required: false
   - type: dropdown
     attributes:
-      label: 'Reproducibility (optional)'
-      description: List all browser(s) impacted.
+      label: 'How Often? (optional)'
+      description: How frequently do you come across this issue within your project?
       options:
         - Always
         - Sometimes
@@ -128,8 +114,8 @@ body:
       required: false
   - type: dropdown
     attributes:
-      label: 'Severity (optional)'
-      description: List all browser(s) impacted.
+      label: 'Priority Level (optional)'
+      description: Please indicate the level of urgency for resolving this bug.
       options:
         - low
         - Medium
@@ -138,16 +124,9 @@ body:
       required: false
   - type: textarea
     attributes:
-      label: 'Related Issues (optional)'
-      description: If there are any related issues or pull requests, please list them here
-      placeholder: start listing issues
-    validations:
-      required: false
-  - type: textarea
-    attributes:
       label: 'Any other information (optional)'
       description: Include any other relevant information that may assist in resolving the issue
-      placeholder: start typing
+      placeholder: Explain thoroughly if necessary
     validations:
       required: false
   - type: checkboxes

@@ -38,7 +38,7 @@ body:
       required: false
   - type: textarea
     attributes:
-      label: 'Description'
+      label: 'Feature Description'
       description: Provide a detailed description of the feature, including its purpose, expected functionality, and any relevant details. Use clear and concise language to explain the feature.
     validations:
       required: false
@@ -56,6 +56,7 @@ body:
       description: |
         - Present your proposed solution for implementing the feature. 
           - This can include technical details, workflows, or any other information necessary for understanding the implementation.
+      placeholder: Explain thoroughly if necessary ...
     validations:
       required: false
   - type: textarea
@@ -64,6 +65,9 @@ body:
       description: |
         - List any dependencies or prerequisites required for implementing the feature. 
           - This can include libraries, frameworks, or other components.
+      placeholder: |
+        - libraries: 
+        - version:
     validations:
       required: false
   - type: textarea
@@ -72,6 +76,10 @@ body:
       description: |
         - Outline the steps required to implement the feature. 
         - Break down the process into smaller tasks or milestones, if applicable.
+      placeholder: |
+        1. Navigate to the GitHub website.
+        2. Once the repository is created
+        3. After adding files
     validations:
       required: false
   - type: textarea
@@ -93,7 +101,7 @@ body:
   - type: textarea
     id: screenshot
     attributes:
-      label: 'Design Mockups (optional)'
+      label: 'Design Mockups / Screenshots (optional)'
       description: |
         - If applicable, include design mockups or visual representations of how the feature might look or function. 
           - This can help provide a clearer understanding of the proposed feature.
