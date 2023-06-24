@@ -32,28 +32,31 @@ body:
     attributes:
       label: 'Steps to Reproduce'
       description: Please list all the steps to reproduce
-      placeholder: step 1
+      placeholder: |
+        - step 1
+        - step 2
+        - step 3
     validations:
       required: false
   - type: textarea
     attributes:
       label: 'Expected Behavior'
       description: Describe what you expected to happen
-      placeholder: start typing
+      placeholder: provide your expectations ...
     validations:
       required: false
   - type: textarea
     attributes:
       label: 'Actual Behavior'
       description: Describe what actually happened
-      placeholder: start typing
+      placeholder: provide your details ...
     validations:
       required: false
   - type: textarea
     attributes:
       label: 'Additional Details (optional)'
       description: Provide any additional details or context related to the issue
-      placeholder: start typing
+      placeholder: provide additional details ...
     validations:
       required: false
   - type: textarea
@@ -83,21 +86,24 @@ body:
     attributes:
       label: 'Todo List (optional)'
       description: Please list all the tasks that need to be done!
-      placeholder: item 1 ...
+      placeholder: |
+        - item 1 ...
+        - item 2 ...
+        - item 3 ...
     validations:
       required: false
   - type: textarea
     attributes:
       label: 'Proposed Solution (optional)'
       description: If you have any ideas or suggestions for a potential solution, please describe them here
-      placeholder: start typing
+      placeholder: start typing solutions ...
     validations:
       required: false
   - type: textarea
     attributes:
       label: 'Impact (optional)'
       description: Describe the impact of the issue on the software or users
-      placeholder: start typing
+      placeholder: tell us the impact ...
     validations:
       required: false
   - type: dropdown
