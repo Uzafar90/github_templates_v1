@@ -3,6 +3,17 @@ description: Create a new ticket for a new feature request
 title: '[REQUEST] - <title>'
 labels: ['question']
 body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Thank for taking the time to fill out this an idea for improving the project!
+        We love to hear any and all idea that you may have. It would be great to get as much detail from you as you wish to provide.
+        ______________________________________
+        **Important documentation**
+        - [Code of Conduct](https://github.com/Uzafar90/github_templates_v1/blob/main/CodeOfConduct.md)
+        - [Contribution Guide](https://github.com/Uzafar90/github_templates_v1/blob/main/ContributionGuide.md)
+        - [Security Guide](https://github.com/Uzafar90/github_templates_v1/blob/main/SecurityGuide.md)
+        ______________________________________
   - type: input
     id: start_date
     attributes:
